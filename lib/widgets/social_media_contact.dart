@@ -7,7 +7,9 @@ class SocialMediaContact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width / 2,
+      width: (MediaQuery.of(context).size.width / 2 > 350)
+          ? 350
+          : MediaQuery.of(context).size.width / 2,
       padding: EdgeInsets.all(8),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,

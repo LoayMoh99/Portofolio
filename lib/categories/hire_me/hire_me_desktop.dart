@@ -21,6 +21,7 @@ class HireMeDesktop extends StatelessWidget {
                 text: 'Contact Me',
               ),
               Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   DirectContact(
                     width: screenSize.width * 0.4,
