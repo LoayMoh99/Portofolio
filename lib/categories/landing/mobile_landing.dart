@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webapp/widgets/seeAllAtGit.dart';
 
 import '../../utils/utalities.dart';
 import '../../widgets/portofolio_text.dart';
@@ -96,6 +97,11 @@ class _MobileLandingState extends State<MobileLanding> {
                 logo: logos[3],
               ),
             ),
+          ),
+          GitHub(
+            width: (widget.screenSize.width * 0.7 > 400)
+                ? 400
+                : widget.screenSize.width * 0.7,
           ),
           HireMeMobile(
             screenSize: widget.screenSize,

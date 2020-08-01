@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:webapp/widgets/seeAllAtGit.dart';
 
 import '../../utils/utalities.dart';
 import '../../widgets/portofolio_text.dart';
@@ -76,6 +77,9 @@ class _DesktopLandingState extends State<DesktopLanding> {
                 ),
               ],
             ),
+          ),
+          GitHub(
+            width: widget.screenSize.width * 0.4,
           ),
           HireMeDesktop(
             screenSize: widget.screenSize,
