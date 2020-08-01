@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>portofolio</title>
-</head>
-<body id="app-container">
-  <script src="main.dart.js" type="application/javascript"></script>
-</body>
-</html>
+#Portofolio
+
+This is just my first practice for Flutter Web..
+Learning some new staff:
+  onHover Effect
+  Scroll Effect
+  Sliver Appbars 
+  and more..
